@@ -42,7 +42,7 @@ Where:
 * **Actuator:** Relay Module & Water Pump
 
 ## Wiring Diagram
-![Wiring Schematic](Wiring Diagram.JPEG)
+![Wiring Schematic](Wiring Diagram.jpeg)
 
 
 ## Software Stack 💻
