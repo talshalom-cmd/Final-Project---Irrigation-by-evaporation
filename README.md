@@ -14,7 +14,7 @@ The system operates in a closed loop between the greenhouse and the classroom se
 4.  **Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT)[cite: 16].
 5.  **Execution:** Every day at **19:00**, the ESP32 retrieves the command and activates the irrigation system accordingly[cite: 16].
 
-![System Architecture]([system_Arch.png](https://github.com/talshalom-cmd/Final-Project---Irrigation-by-evaporation/blob/main/system_Arch.png?raw=true))
+![System Architecture](system_Arch.png)
 
 ## The Algorithm: Penman-Monteith
 [cite_start]We use the standard FAO-56 Penman-Monteith equation to calculate reference evapotranspiration ($ET_0$)[cite: 3]:
