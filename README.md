@@ -14,8 +14,7 @@ The system operates in a closed loop between the greenhouse and the classroom se
 4.  [cite_start]**Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT)[cite: 16].
 5.  [cite_start]**Execution:** Every day at **19:00**, the ESP32 retrieves the command and activates the irrigation system accordingly[cite: 16].
 
-![System Architecture](path/to/your_architecture_image.png)
-*(Note: Upload the system diagram image to your repository and update this link)*
+![System Architecture](system Arch.png)
 
 ## The Algorithm: Penman-Monteith
 [cite_start]We use the standard FAO-56 Penman-Monteith equation to calculate reference evapotranspiration ($ET_0$)[cite: 3]:
@@ -43,8 +42,8 @@ Where:
 * **Actuator:** Relay Module & Water Pump
 
 ## Wiring Diagram
-![Wiring Schematic](path/to/your_wiring_image.png)
-*(Note: Upload the wiring diagram image to your repository and update this link)*
+![Wiring Schematic](Wiring Diagram.JPEG)
+
 
 ## Software Stack 💻
 * **Firmware:** C++ (Arduino IDE) for ESP32 sensor management and MQTT communication.
