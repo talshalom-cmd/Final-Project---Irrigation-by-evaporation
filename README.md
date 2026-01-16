@@ -8,11 +8,11 @@ This project implements an autonomous irrigation system designed to optimize wat
 ## System Architecture ⚙️
 The system operates in a closed loop between the greenhouse and the classroom server:
 
-1.  [cite_start]**Data Collection:** An **ESP32** microcontroller in the greenhouse reads data from environment sensors (Wind, Rain, Temp, Humidity, Radiation)[cite: 14].
-2.  [cite_start]**Cloud Upload:** The raw data is sent to **ThingSpeak** cloud platform via WiFi[cite: 14].
-3.  [cite_start]**Data Processing:** A **Python script** running on a computer (Agrotech Classroom) fetches the raw data and calculates the daily Evapotranspiration ($ET_0$)[cite: 15].
-4.  [cite_start]**Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT)[cite: 16].
-5.  [cite_start]**Execution:** Every day at **19:00**, the ESP32 retrieves the command and activates the irrigation system accordingly[cite: 16].
+1.  **Data Collection:** An **ESP32** microcontroller in the greenhouse reads data from environment sensors (Wind, Rain, Temp, Humidity, Radiation)[cite: 14].
+2.  **Cloud Upload:** The raw data is sent to **ThingSpeak** cloud platform via WiFi[cite: 14].
+3.  **Data Processing:** A **Python script** running on a computer (Agrotech Classroom) fetches the raw data and calculates the daily Evapotranspiration ($ET_0$)[cite: 15].
+4.  **Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT)[cite: 16].
+5.  **Execution:** Every day at **19:00**, the ESP32 retrieves the command and activates the irrigation system accordingly[cite: 16].
 
 ![System Architecture](system_Arch.png)
 
