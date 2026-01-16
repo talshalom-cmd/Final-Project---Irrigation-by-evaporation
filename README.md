@@ -38,7 +38,7 @@ The monitoring station is installed at a height of **2 meters** for accurate met
 * **Temperature & Humidity:** SHT31 Sensor 
 * **Wind Speed:** Anemometer (measured at 2m) 
 * **Rain Gauge:** Tipping Bucket mechanism (0.5mm resolution)
-* ]**Solar Radiation:** Pyranometer / Light Sensor
+* **Solar Radiation:** Pyranometer / Light Sensor
 * **Actuator:** Relay Module & Water Pump
 
 ## Wiring Diagram
