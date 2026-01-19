@@ -38,10 +38,10 @@ The monitoring station is installed at a height of **2 meters** for accurate met
 * **Microcontroller:** ESP32 Development Board
 * **ADC Module:** ADS1115 (16-Bit) 
 * **Temperature & Humidity:** SHT31 Sensor 
-* **Wind Speed:** Anemometer (measured at 2m) 
+* **Wind Speed:** Anemometer (measured at 2m). gets 12V from greenhouse panel.
 * **Rain Gauge:** Tipping Bucket mechanism (0.5mm resolution)
 * **Solar Radiation:** Pyranometer / Light Sensor
-* **Actuator:** Relay Module & Water Pump
+* **Actuator:** Relay Module & Water Pump (via MQTT)
 
 <img src="hardware.jpeg" alt="hardware photo" width="400">
 <img src="overall.jpeg" alt="hardware photo 2" width="400">
