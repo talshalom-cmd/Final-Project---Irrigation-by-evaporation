@@ -11,9 +11,9 @@ The system collects environmental data via sensors, processes the calculations o
 The system operates in a closed loop between the greenhouse and the classroom server:
 
 1.  **Data Collection:** An **ESP32** microcontroller in the greenhouse reads data from environment sensors (Wind, Rain, Temp, Humidity, Radiation).
-2.  **Cloud Upload:** The raw data is sent to **ThingSpeak** cloud platform via WiFi. https://thingspeak.mathworks.com/channels/3229296
+2.  **Cloud Upload:** The raw data is sent to **ThingSpeak** cloud platform via WiFi. https://thingspeak.mathworks.com/channels/3229286
 3.  **Data Processing:** A **Python script** running on a computer (Agrotech Classroom) fetches the raw data and calculates the daily Evapotranspiration ($ET_0$).
-4.  **Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT).
+4.  **Decision Making:** The calculated irrigation duration is sent back to ThingSpeak (via MQTT). https://thingspeak.mathworks.com/channels/3229296
 5.  **Execution:** Every day at **19:00**, the ESP32 retrieves the command and activates the irrigation system accordingly.
 
 ![System Architecture](system_Arch.png)
