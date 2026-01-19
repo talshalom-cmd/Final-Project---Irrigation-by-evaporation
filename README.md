@@ -5,7 +5,8 @@ This project implements an autonomous irrigation system designed to optimize wat
 
 The system collects environmental data via sensors, processes the calculations on a remote server (Python), and controls the irrigation valves automatically to maintain a perfect water balance for the plants.
 
-![watch us work](working_outsid.jpeg)
+<img src="working_outside.jpeg" alt="watch us work" width="400">
+
 ## System Architecture ⚙️
 The system operates in a closed loop between the greenhouse and the classroom server:
 
@@ -41,7 +42,9 @@ The monitoring station is installed at a height of **2 meters** for accurate met
 * **Rain Gauge:** Tipping Bucket mechanism (0.5mm resolution)
 * **Solar Radiation:** Pyranometer / Light Sensor
 * **Actuator:** Relay Module & Water Pump
-![hardware photo](hardware.jpeg)
+
+<img src="hardware.jpeg" alt="hardware photo" width="400">
+<img src="hardware.jpeg" alt="hardware photo" width="400">
 
 ## Wiring Diagram
 ![Wiring Schematic](Wiring_Diagram.jpeg)
