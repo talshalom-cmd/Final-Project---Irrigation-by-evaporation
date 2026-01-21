@@ -57,8 +57,9 @@ The monitoring station is installed at a height of **2 meters** for accurate met
 
 ## How to Run
 **ESP32:** Upload the `.ino` code from the `src` folder to the board. Ensure WiFi credentials and ThingSpeak API keys are configured.
-We have prepared 2 code files. One will send whether to turn on the irrigation every 2 minutes.
-  *[Click to see the code](final_Project_with_MQTT_work_well.ino) 
-The second will turn on the irrigation for the duration calculated in THINGSPEAK.
- *[Click to see the code](final_Project_with_MQTT_19.ino)
-**Python Server:** Run the analysis script on a computer with internet access. The script should be scheduled to run before 19:00 daily.
+We have prepared 2 code files. One will send whether to turn on the irrigation every 2 minutes.  
+[Click to see the code](final_Project_with_MQTT_work_well.ino)   
+The second will turn on the irrigation for the duration calculated in THINGSPEAK.  
+[Click to see the code](final_Project_with_MQTT_19.ino)  
+**Python Server:** Run the analysis script on a computer with internet access. The script should be scheduled to run before 19:00 daily.  
+[Click to see the code](upd_rpi_irrigation_by_evaporation.ipynb) 
