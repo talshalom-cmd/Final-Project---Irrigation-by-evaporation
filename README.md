@@ -33,7 +33,9 @@ Where:
 * $\gamma$: Psychrometric constant
 
 ## Hardware Components 🛠️
-The monitoring station is installed at a height of **2 meters** for accurate meteorological readings.
+The monitoring station is installed at a height of **2 meters** for accurate meteorological readings.  
+
+<img src="2_m.jpeg" alt="2 meter installation" width="400">
 
 * **Microcontroller:** ESP32 Development Board
 * **ADC Module:** ADS1115 (16-Bit) 
